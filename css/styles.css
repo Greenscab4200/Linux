@@ -17,21 +17,25 @@ h1 {
 	font-family: "Baskerville", "Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", "serif";
 }
 
+h2 {
+	text-align: center;
+}
+
 section {
 	background-color: #44AAA5;
 
 }
 
 nav {
-    background-color: #8e94ba;
+	background: #ff9900;
     display: inline-block;
-    border: 2px solid #7f83a2;
-    box-shadow: 1px 1px 2px #4c4f67;
+    border: 2px solid #df8600;
+    box-shadow: 1px 1px 2px #df8600;
     width: 100%;
 }
 
 nav ul {
-    color: #426AC3;
+    color: #ffffff;
     list-style-type: none;
     text-align: center;
 }
@@ -42,7 +46,7 @@ nav li {
 }
 
 nav li a {
-    color: #cfd5ff;
+    color: #ffffff;
 	font-weight: bolder;
     text-decoration: none;
     padding: 5%;
@@ -79,13 +83,13 @@ table {
 
 input {
 	padding: 2px 0;
-	background-color: #ccc;
+	background-color: #ffffff;
 }
 
 form {
-	background-color: #8e94ba;
+	background: #ff9900;
 	width: 50%;
-	margin: 0 auto;
+	margin: auto auto;
 	font-size: 1.5em;
 	border-radius: 10px;
 }
@@ -105,7 +109,7 @@ blockquote {
 }
 
 footer {
-    background-color: #305296;
+	background: #ff9900;
     text-align: center;
 }
 
@@ -117,7 +121,7 @@ footer {
 	background: #F7F7F7;
 }
 .form-style-6 h1{
-	background: #8e94ba;
+	background: #ff9900;
 	padding: 20px 0;
 	font-size: 140%;
 	font-weight: 300;
@@ -130,5 +134,4 @@ footer {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
   }
